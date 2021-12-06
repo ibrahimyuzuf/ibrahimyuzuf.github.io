@@ -6,3 +6,7 @@ html, body {
      font-style: inherit;
      color: #616161;
  }
+
+ footer {
+     background-color: #ffc107!important;
+ }
