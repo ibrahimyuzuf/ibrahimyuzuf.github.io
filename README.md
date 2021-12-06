@@ -1,1 +1,1 @@
-# ibrahimyuzuf.github.io
+# ibrahimyuzuf.github.io p slur
