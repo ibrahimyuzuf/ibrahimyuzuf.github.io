@@ -8,18 +8,18 @@ html, body {
  }
 
  .jumbotron{
-    background: url(../img/produk-4.jpeg) no-repeat center center fixed;
+    background: url('../img/produk-4.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     padding: 5em;
  }
 
  .jumbotron h1{
-  font-size: 30px;
+  font-size: 1.5em;
   text-shadow: 1px 1px 2px black;
  }
  .jumbotron h3{
-  font-size: 20px;
+  font-size: 0.8em;
   text-shadow: 1px 1px 2px black;
  }
 
@@ -421,7 +421,7 @@ html, body {
     position: relative;
     z-index: 2;
  */   
-  width: 500px;
+  width: 250px;
 }
 .about-five-content .about-five-tab nav {
     border: none;
@@ -432,8 +432,9 @@ html, body {
 .about-five-content .about-five-tab nav button {
     border: none;
     color: var(--dark-1);
-    font-weight: 600;
+    font-weight: 350;
     padding: 0;
+    margin: 5px;
     margin-right: 20px;
     position: relative;
     background-color: #dee2e6;
@@ -491,6 +492,9 @@ html, body {
        .container .sekilas img {
         width : 500px;
     }
+    .landing .form-control {
+      width: 340px;
+     }
     .badan
     {
         padding: 13px 0;
@@ -517,7 +521,14 @@ html, body {
     .about-five {
     padding-top: 100px;
     padding-bottom: 70px;
-}
+    }
+    .about-img {
+     /*   padding-left: 60px;
+        position: relative;
+        z-index: 2;
+     */   
+      width: 500px;
+    }
        
 }
 
