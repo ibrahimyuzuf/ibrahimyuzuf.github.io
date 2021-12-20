@@ -1,0 +1,226 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+ p{
+     font-style: inherit;
+     color: #616161;
+ }
+
+ .jumbotron{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../img/image14.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+ }
+    .jumbotron .btn{
+     background-color: #F05f40;
+     border:none;
+     border-radius: 25px;
+     padding-right: 25px;
+     padding-left: 25px;
+     margin-top: 0px;
+     font-size: 10px;
+    }
+
+    .jumbotron .display-4{
+     color: white;
+     margin-top: 30px;
+     font-size: 25px;
+    }
+
+    .jumbotron .lead {
+     color: white;
+    }
+
+    .jumbotron p {
+     color: white;
+    }
+
+/*info panel*/
+.box-primary-shadow {
+    box-shadow: 0 5px 10px rgb(94 45 216 / 30%);
+}
+
+   .container .sekilas {
+       margin-top: 70px;
+   }
+
+   .container .sekilas img {
+    width : 300px;
+}
+
+    
+.carousel-inner .carousel-caption {
+    margin-top: 500px;
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 10px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    width: 100%;
+}
+
+.bg-lightx .card {
+    margin-top: 30px;
+    background: #fff;
+    margin-bottom: 350px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    width: 100%;
+    }
+
+
+ .bg-lightx .card .body {
+        font-size: 12px;
+        color: #424242;
+        padding: 20px;
+        font-weight: 400;
+    }
+
+    .info .card {
+    margin-top: 300px;
+    background: #fff;
+    margin-bottom: 0px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    width: 100%;
+    }
+
+
+ .info .card .body {
+        font-size: 12px;
+        color: #424242;
+        padding: 20px;
+        font-weight: 400;
+    }
+
+
+footer {
+    margin-top: 300px;
+}
+
+
+/*Css Kontak */
+.badan
+{
+    padding: 13px 0;
+    margin-top: 30px;
+}
+
+.badan h1{
+     text-align: center;
+}
+
+.badan p{
+     text-align: center;
+}
+ 
+.peding-100
+{
+    padding: 120px;
+}
+ 
+.peding-30
+{
+    padding: 30px;
+}
+
+   @media only screen and (min-width: 768px) {
+    .jumbotron{
+    background:  linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../img/image14.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+ }
+    .jumbotron .btn{
+     background-color: #F05f40;
+     border:none;
+     border-radius: 25px;
+     padding-right: 25px;
+     padding-left: 25px;
+     margin-top: 40px;
+     font-size: 20px;
+    }
+
+    .jumbotron .display-4{
+    margin-top: 100px;
+     color: white;
+     font-size: 60px;
+    }
+
+    .jumbotron .lead {
+     color: white;
+    }
+
+    .jumbotron p {
+     color: white;
+    }
+
+    .container .sekilas img {
+        width : 500px;
+    }
+    .landing .form-control {
+      width: 340px;
+     }
+    .bg-lightx .card {
+    margin-top: 0px;
+    background: #fff;
+    margin-bottom: 20px;
+    transition: .5s;
+    border: 0;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    }
+
+    .bg-lightx .card .body {
+        font-size: 12px;
+        color: #424242;
+        padding: 20px;
+        font-weight: 400;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+    .badan
+    {
+        padding: 13px 0;
+        margin-top: 30px;
+    }
+
+    .badan h1{
+      text-align: left;
+    }
+
+    .badan p {
+      text-align: left;
+    }
+ 
+    .peding-100
+    {
+        padding: 120px;
+    }
+     
+    .peding-30
+    {
+        padding: 30px;
+    }
+    .about-five {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    }
+       
+}
+
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
